@@ -100,5 +100,3 @@ app.get('/products/:id', (req, res) => {
 app.listen(3000, () => {
     console.log('App running');
 });
-
-export default app;
