@@ -1,6 +1,5 @@
 import express from 'express';
 const app = express();
-const port = 3001;
 
 app.use(express.json());
 
@@ -95,7 +94,7 @@ app.get('/products/:id', (req, res) => {
     res.status(200).json(product);
 });
 
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log('App running');
 });
 
